@@ -15,5 +15,6 @@ class Anagram
       if item_letters_sorted == letters_sorted
         @@mathces << item
     end
+    @@matches
   end
 end
