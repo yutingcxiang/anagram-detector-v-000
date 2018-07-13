@@ -1,12 +1,12 @@
 class Anagram
   attr_accessor :word
-  @@matches = []
   
   def initialize(word)
     @word = word
   end
   
   def match(array)
+    matches = []
     letters = @word.split("")
     letters_sorted = letters.sort
     array.map do |item|
