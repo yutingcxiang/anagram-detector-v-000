@@ -13,9 +13,9 @@ class Anagram
       item_letters = item.split("")
       item_letters_sorted = item_letters.sort
       if item_letters_sorted == letters_sorted
-        @@matches << item
+        matches << item
       end
     end
-    @@matches
+    matches
   end
 end
