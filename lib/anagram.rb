@@ -14,6 +14,7 @@ class Anagram
       item_letters_sorted = item_letters.sort
       if item_letters_sorted == letters_sorted
         @@mathces << item
+      end
     end
     @@matches
   end
